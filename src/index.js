@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+<<<<<<< HEAD
 import App from './pages/App';
 import { createStore } from 'redux'
 import reducer from './store/reducer'
@@ -18,6 +19,21 @@ ReactDOM.render(
       </BaseLayout>
     </Provider>
 
+=======
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+import {createStore} from 'redux'
+import reducer from './store/reducer';
+import {Provider} from 'react-redux'
+
+const store = createStore(reducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
+
+ReactDOM.render(
+  <React.StrictMode>
+    <Provider store = {store}>
+      <App />
+    </Provider>
+>>>>>>> 083dd22f3b1b28981be90b8c0d155333372d44b5
   </React.StrictMode>,
   document.getElementById('root')
 );

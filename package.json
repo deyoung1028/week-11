@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "book-boutique",
+=======
+  "name": "hello-redux",
+>>>>>>> 083dd22f3b1b28981be90b8c0d155333372d44b5
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,7 +13,10 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-redux": "^7.2.5",
+<<<<<<< HEAD
     "react-router-dom": "^5.3.0",
+=======
+>>>>>>> 083dd22f3b1b28981be90b8c0d155333372d44b5
     "react-scripts": "4.0.3",
     "redux": "^4.1.1",
     "web-vitals": "^1.1.2"
